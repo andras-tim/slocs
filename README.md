@@ -1,0 +1,2 @@
+# slocs
+Simple Location Service
