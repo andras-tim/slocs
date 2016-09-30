@@ -1,0 +1,95 @@
+{
+    // JSHint Configuration, Strict Edition
+    // Sources:
+    //   * https://gist.github.com/haschek/2595796
+    //   * http://jshint.com/docs/options/
+
+
+    // Test Run
+
+    "maxerr": 100,
+
+
+    // Enforcing
+
+    "bitwise"       : true,
+    "curly"         : true,
+    "eqeqeq"        : true,
+    "forin"         : true,
+    "freeze"        : true,
+    "latedef"       : false,
+    "noarg"         : true,
+    "nonbsp"        : true,
+    "nonew"         : true,
+    "plusplus"      : true,
+    "undef"         : true,
+    "unused"        : "vars",
+    "strict"        : "global",
+    "maxparams"     : 20,
+    "maxdepth"      : 7,
+    "maxstatements" : 35,
+    "maxcomplexity" : 10,
+
+
+    // Relaxing
+
+    "asi"           : false,
+    "boss"          : false,
+    "debug"         : false,
+    "eqnull"        : false,
+    "es5"           : false,
+    "esnext"        : false,
+    "moz"           : false,
+    "evil"          : false,
+    "expr"          : false,
+    "funcscope"     : false,
+    "iterator"      : false,
+    "lastsemic"     : false,
+    "loopfunc"      : false,
+    "noyield"       : false,
+    "notypeof"      : false,
+    "proto"         : false,
+    "scripturl"     : false,
+    "shadow"        : false,
+    "supernew"      : false,
+    "validthis"     : false,
+
+
+    // Environments
+
+    "browser"       : true,
+    "browserify"    : false,
+    "couch"         : false,
+    "devel"         : false,
+    "dojo"          : false,
+    "jasmine"       : false,
+    "jquery"        : true,
+    "mocha"         : false,
+    "mootools"      : false,
+    "node"          : false,
+    "nonstandard"   : false,
+    "phantom"       : false,
+    "prototypejs"   : false,
+    "qunit"         : false,
+    "rhino"         : false,
+    "shelljs"       : false,
+    "typed"         : false,
+    "worker"        : false,
+    "wsh"           : false,
+    "yui"           : false,
+
+
+    // JSLint Legacy
+
+    "nomen": false,
+    "onevar": false,
+    "passfail": false,
+    "white": false,
+
+
+    // Custom Globals
+
+    "globals": {
+        "google": false
+    }
+}

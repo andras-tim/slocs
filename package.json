@@ -1,0 +1,29 @@
+{
+  "author": "Andras Tim <andras.tim@gmail.com>",
+  "name": "slocs",
+  "version": "0.1.0",
+  "description": "Simple Location Share",
+  "keywords": [
+    "maps",
+    "location"
+  ],
+  "license": "GPL-3.0",
+  "private": true,
+  "homepage": "https://github.com/andras-tim/slocs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andras-tim/slocs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andras-tim/slocs/issues"
+  },
+  "devDependencies": {
+    "jscs": "^3.0.7",
+    "jshint": "^2.9.3"
+  },
+  "scripts": {
+    "test": "npm run test-jshint && npm run test-jscs",
+    "test-jshint": "jshint --verbose www",
+    "test-jscs": "jscs www"
+  }
+}
